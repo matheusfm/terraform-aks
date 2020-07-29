@@ -1,4 +1,5 @@
-# Terraform to create a simple Azure Kubernetes Service (AKS)
+# terraform-aks
+Terraform to create a simple Azure Kubernetes Service (AKS) with NGINX Ingress Controller
 
 ## TL;DR
 
