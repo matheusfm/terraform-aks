@@ -8,6 +8,7 @@ provider "helm" {
   }
 }
 
+# following this tutorial https://docs.microsoft.com/en-us/azure/aks/ingress-basic
 data "helm_repository" "nginx-ingress" {
   name = "stable"
   url  = "https://kubernetes-charts.storage.googleapis.com/"
