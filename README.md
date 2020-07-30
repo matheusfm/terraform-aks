@@ -12,5 +12,6 @@ $ $(terraform output get_credentials)
 
 ### References:
 * A complete tutorial for multi-person environment: https://docs.microsoft.com/en-us/azure/developer/terraform/create-k8s-cluster-with-tf-and-aks#set-up-azure-storage-to-store-terraform-state
-* Examples: https://github.com/terraform-providers/terraform-provider-azurerm/tree/master/examples/kubernetes
+* Terraform azurerm provider examples: https://github.com/terraform-providers/terraform-provider-azurerm/tree/master/examples/kubernetes
+* Deploying the NGINX Ingress Controller in an AKS cluster: https://docs.microsoft.com/en-us/azure/aks/ingress-basic
 * https://learn.hashicorp.com/terraform/kubernetes/provision-aks-cluster
